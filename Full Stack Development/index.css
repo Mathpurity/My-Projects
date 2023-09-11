@@ -1,0 +1,43 @@
+ body {
+   background-color: aquamarine;
+ }
+
+ #text {
+   background-color: lightcoral;
+   color: white;
+   padding: 10px;
+
+ }
+
+ #game {
+   max-width: 500;
+   max-height: 400;
+   background-color: lightgoldenrodyellow;
+   color: blue;
+   margin: auto;
+   padding: 10px;
+
+ }
+ 
+#controls {
+   border: 3px dodgerblue solid;
+   padding: 5px;
+}
+
+#stat {
+   border: 3px dodgerblue solid;
+   color: blueviolet;
+   padding: 5px;
+}
+
+#monsterStats {
+   display: none;
+   border: 1px blueviolet solid;
+   color: antiquewhite;
+   padding: 5px;
+   background-color: darksalmon;
+}
+
+.stat {
+   padding-right: 10px;
+}

@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+
+}
+
+
+
+input {
+  width: 100%;  
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid green;
+  margin-bottom: 4px;
+
+
+}
+
+button {
+    
+    padding: 10px 20px;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    border: 0cap;
+    
+
+} 
+
+#tab-btn {
+    padding: 10px 20px;
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    border: 0cap;
+}
+
+#delete-btn {
+    padding: 10px 20px;
+    background-color: white;
+    font-weight: bold;
+    color:green;
+    border: 0cap;
+}
+
+ul {
+    margin: 20px;
+    list-style: none;
+    padding-left: 0%;
+   
+    font-size: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+li {
+    margin-top: 5px;
+
+}
+
+a {
+    color: greenyellow;
+
+}

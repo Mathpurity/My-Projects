@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG - Dragon Repeller</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="game">
+        <div id="stat">
+            <span class="stat">XP: <strong><span 
+                id="xpText">0</span></strong></span>
+                <span class="stat">Health: <strong><span
+                    id="healthText">100</span></strong></span>
+                    <span class="stat">Gold: <strong><span
+                        id="goldText">58</span></strong></span>
+        </div>
+        <div id="controls">
+            <button id="button1" onclick="goStore ()">Go to Store</button>
+            <button id="button2" onclick="goCave ()">Go to Cave</button>
+            <button id="button3" onclick="fightDragon ()">fight Dragon</button>
+        </div>
+
+        <div id="monsterStats">
+            <span class="stat">Monster name: <strong><span
+                id="monsterName"></span></strong></span>
+                <span class="stat">Health <strong><span
+                    id="monsterHealth"></span></strong></span>
+        </div>
+        <div id="text">Welcome to Drogon Repeller, You must defeat the dragon that is
+            preventing people from leaving the town. You are in the town square. Where do you want to
+            go? Use buttons above.</div>
+    </div>
+    <Script src="index.js"></Script>
+   </body>
+
+</html>
